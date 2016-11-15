@@ -30,6 +30,6 @@ docker-compose stop
 ```
 
 
-## About tje project's name
+## About the project's name
 
-The projct's name (the main repository and its sub-repositories) are inspired in [Dune universe](https://en.wikipedia.org/wiki/Dune_(franchise))
+The projct's name (the main repository and its sub-repositories) are inspired in [Dune universe](https://en.wikipedia.org/wiki/Dune_(franchise)).

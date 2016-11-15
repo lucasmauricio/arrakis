@@ -2,7 +2,7 @@
 
 Arrakis is a proof-of-concept project to develop a microservice application.
 
-The project is composed by:
+## The project and its dependencies
 
 | Project | Technology | Description |
 | --- | :---: | --- |
@@ -12,6 +12,14 @@ The project is composed by:
 [Service Discovery](https://github.com/lucasmauricio/service-discovery) | Java | API for register services (and discovery existing services).
 
 All the project is glued with [Docker Compose](https://docs.docker.com/compose/).
+
+## Project's pre-requirements
+
+The project is supported by the technologies and tools listed below:
+
+* Shell Script
+* [Docker Compose](https://docs.docker.com/compose/)
+* [Apache Maven](https://maven.apache.org/)
 
 ## Configuring the project
 

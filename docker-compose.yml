@@ -1,0 +1,34 @@
+# Arrakis --> https://github.com/lucasmauricio/arrakis.git
+version: '2'
+services:
+  # API Gateway --> https://github.com/lucasmauricio/service-discovery.git
+  registrator-service:
+    build: api/registrator
+    ports:
+      - "8080:8080"
+    volumes:
+      - "./api/registrator:/app-src"
+
+  # Wallach IX --> https://github.com/lucasmauricio/wallach-ix.git
+  collection-service:
+    build: api/collection
+    volumes:
+      - "./api/collection:/app-src"
+    ports:
+      - "7575:8000"
+    links:
+      - registrator-service:registrator
+    depends_on:
+      - registrator-service
+
+  # Balut --> https://github.com/lucasmauricio/balut.git
+  user-service:
+    build: api/user
+    volumes:
+      - "./api/user/:/app-src"
+    ports:
+      - "7070:8000"
+    links:
+      - registrator-service:registrator
+    depends_on:
+      - registrator-service

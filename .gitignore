@@ -1,0 +1,5 @@
+.git
+
+# project's sub-repositories
+app/
+api/

@@ -32,4 +32,4 @@ docker-compose stop
 
 ## About the project's name
 
-The projct's name (the main repository and its sub-repositories) are inspired in [Dune universe](https://en.wikipedia.org/wiki/Dune_(franchise)).
+Thanks to @teseu, the names in the project (the main repository and its sub-repositories) are inspired in [Dune universe](https://en.wikipedia.org/wiki/Dune_(franchise)).

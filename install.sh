@@ -36,11 +36,11 @@ printf "\nCloning the project's sub-repositories\n"
 printf "\n1) a fake API Gateway at Service Discovery repository\n"
 git clone https://github.com/lucasmauricio/service-discovery.git $API_DIR/registrator/
 
-printf "\n2) Collection Service at Balut repository\n"
-git clone https://github.com/lucasmauricio/balut.git $API_DIR/collection/
+printf "\n2) Collection Service at Wallack IX repository\n"
+git clone https://github.com/lucasmauricio/wallack-ix.git $API_DIR/collection/
 
-printf "\n3) User Service at Wallach IX repository\n"
-git clone https://github.com/lucasmauricio/wallach-ix.git $API_DIR/user/
+printf "\n3) User Service at Balut repository\n"
+git clone https://github.com/lucasmauricio/balut.git $API_DIR/user/
 
 printf "\n${WHITE}The project's setup is complete and now you can use Docker to try it out.\n"
 printf "\n${CYAN}Please, feel free to talk to us at Github (https://github.com/lucasmauricio/arrakis/issues) ${NORMAL}\n"

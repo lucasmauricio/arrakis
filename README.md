@@ -21,6 +21,7 @@ The project is supported by the technologies and tools listed below:
 * [Git](https://git-scm.com/)
 * [Docker](https://www.docker.com/what-docker) and [Docker Compose](https://docs.docker.com/compose/)
 * [Apache Maven](https://maven.apache.org/)
+
 :heavy_exclamation_mark: Make sure you have at least one JDK installed in you system because Maven needs it to build a Java application.
 
 ## Configuring the project

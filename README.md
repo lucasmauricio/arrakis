@@ -18,6 +18,7 @@ All the project is glued with [Docker Compose](https://docs.docker.com/compose/)
 The project is supported by the technologies and tools listed below:
 
 * Shell Script
+* [Git](https://git-scm.com/)
 * [Docker](https://www.docker.com/what-docker) and [Docker Compose](https://docs.docker.com/compose/)
 * [Apache Maven](https://maven.apache.org/)
 

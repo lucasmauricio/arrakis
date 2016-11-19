@@ -21,12 +21,13 @@ The project is supported by the technologies and tools listed below:
 * [Git](https://git-scm.com/)
 * [Docker](https://www.docker.com/what-docker) and [Docker Compose](https://docs.docker.com/compose/)
 * [Apache Maven](https://maven.apache.org/)
+:heavy_exclamation_mark: Make sure you have at least one JDK installed in you system because Maven needs it to build a Java application.
 
 ## Configuring the project
 
 ```shell
 git clone https://github.com/lucasmauricio/arrakis.git
-sh install.sh
+sh arrakis/install.sh
 mvn -f api/registrator/pom.xml clean package
 docker-compose build
 ```
@@ -38,6 +39,14 @@ docker-compose up -d
 docker-compose stop
 ```
 
+## [Smoke test](https://en.wikipedia.org/wiki/Smoke_testing_(software))
+
+With all images running, you can just access any service to check if they are working.
+This is one way to do that:
+
+* `curl http://localhost:7070/user`
+* `curl http://localhost:7575/enterprise`
+* `curl http://localhost:8080/assets`
 
 ## About the project's name
 

@@ -45,7 +45,7 @@ docker-compose stop
 With all images running, you can just access any service to check if they are working.
 This is one way to do that:
 
-* `curl http://localhost:7070/user`
+* `curl http://localhost:7070/users`
 * `curl http://localhost:7575/enterprise`
 * `curl http://localhost:8080/assets`
 

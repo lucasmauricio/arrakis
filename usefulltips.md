@@ -1,6 +1,6 @@
 # Useful tips to work in the project
 
-## Computar open ports
+## Computer open ports
 
 nmap -v localhost
 

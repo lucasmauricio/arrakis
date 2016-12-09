@@ -32,3 +32,15 @@ services:
       - registrator-service:registrator
     depends_on:
       - registrator-service
+
+  # IX --> https://github.com/lucasmauricio/ix.git
+  item-service:
+    build: api/item
+    # volumes:
+    #   - "./api/user/:/app-src"
+    ports:
+      - "9090:80"
+    links:
+      - registrator-service:registrator
+    depends_on:
+      - registrator-service

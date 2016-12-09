@@ -8,6 +8,7 @@ Arrakis is a proof-of-concept project to develop a microservice application.
 | --- | :---: | --- |
 [Arrakis](https://github.com/lucasmauricio/arrakis) | Shell | The container project with info and configuration.
 [Wallach IX - Collection API](https://github.com/lucasmauricio/wallach-ix) | Python | API for collections data manipulation.
+[IX - Item API](https://github.com/lucasmauricio/ix) | PHP | API for items data manipulation.
 [Balut - User API](https://github.com/lucasmauricio/balut) | Python | API for user data manipulation.
 [Service Discovery](https://github.com/lucasmauricio/service-discovery) | Java | API for register services (and discovery existing services).
 

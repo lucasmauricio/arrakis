@@ -40,7 +40,7 @@ printf "\n2) Collection Service at Wallach IX repository\n"
 git clone https://github.com/lucasmauricio/wallach-ix.git $API_DIR/collection/
 
 printf "\n3) Item Service at IX repository\n"
-git clone https://github.com/lucasmauricio/wallach-ix.git $API_DIR/item/
+git clone https://github.com/lucasmauricio/ix.git $API_DIR/item/
 
 printf "\n4) User Service at Balut repository\n"
 git clone https://github.com/lucasmauricio/balut.git $API_DIR/user/

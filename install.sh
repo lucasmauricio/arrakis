@@ -39,7 +39,10 @@ git clone https://github.com/lucasmauricio/service-discovery.git $API_DIR/regist
 printf "\n2) Collection Service at Wallach IX repository\n"
 git clone https://github.com/lucasmauricio/wallach-ix.git $API_DIR/collection/
 
-printf "\n3) User Service at Balut repository\n"
+printf "\n3) Item Service at IX repository\n"
+git clone https://github.com/lucasmauricio/wallach-ix.git $API_DIR/item/
+
+printf "\n4) User Service at Balut repository\n"
 git clone https://github.com/lucasmauricio/balut.git $API_DIR/user/
 
 printf "\n${WHITE}The project's setup is complete and now you can use Docker to try it out.\n"

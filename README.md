@@ -30,7 +30,7 @@ The project is supported by the technologies and tools listed below:
 ```shell
 git clone https://github.com/lucasmauricio/arrakis.git
 sh arrakis/install.sh
-mvn -f api/registrator/pom.xml clean package
+mvn -f arrakis/api/registrator/pom.xml clean package
 docker-compose build
 ```
 

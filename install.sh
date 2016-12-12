@@ -19,8 +19,8 @@ UNDERLINE=$(tput smul)
 printf "\n${BRIGHT}${WHITE}--------------------------------------------------------------\n"
 printf "${GREEN}Setting up the Arrakis' project${NORMAL}\n"
 
-APP_DIR="app"
-API_DIR="api"
+APP_DIR="arrakis/app"
+API_DIR="arrakis/api"
 for DIR_NAME in ${APP_DIR} ${API_DIR}
 do
   if [ -f $DIR_NAME ] || [ -d $DIR_NAME ]; then

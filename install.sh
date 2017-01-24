@@ -33,6 +33,8 @@ done
 
 printf "\nCloning the project's sub-repositories\n"
 
+# APIs repositories
+
 printf "\n1) a fake API Gateway at Service Discovery repository\n"
 git clone https://github.com/lucasmauricio/service-discovery.git $API_DIR/registrator/
 
@@ -44,6 +46,12 @@ git clone https://github.com/lucasmauricio/ix.git $API_DIR/item/
 
 printf "\n4) User Service at Balut repository\n"
 git clone https://github.com/lucasmauricio/balut.git $API_DIR/user/
+
+# APPs repositories
+
+printf "\n5) Frontend Test App for services at Kaitain repository\n"
+git clone https://github.com/lucasmauricio/kaitain.git $APP_DIR/qa/
+
 
 printf "\n${WHITE}The project's setup is complete and now you can use Docker to try it out.\n"
 printf "\n${CYAN}Please, feel free to talk to us at Github (https://github.com/lucasmauricio/arrakis/issues) ${NORMAL}\n"

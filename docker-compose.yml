@@ -44,3 +44,19 @@ services:
       - registrator-service:registrator
     depends_on:
       - registrator-service
+
+
+  # Kaitain --> https://github.com/lucasmauricio/kaitain.git
+  qa-application:
+    build: app/qa
+    # volumes:
+    #   - "./api/user/:/app-src"
+    ports:
+      - "9999:80"
+    #links:
+    #  - registrator-service:registrator
+    depends_on:
+      - registrator-service
+      - collection-service
+      - user-service
+      - item-service

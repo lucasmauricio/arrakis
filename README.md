@@ -11,6 +11,7 @@ Arrakis is a proof-of-concept project to develop a microservice application.
 [IX - Item API](https://github.com/lucasmauricio/ix) | PHP | API for items data manipulation.
 [Balut - User API](https://github.com/lucasmauricio/balut) | Python | API for user data manipulation.
 [Service Discovery](https://github.com/lucasmauricio/service-discovery) | Java | API for register services (and discovery existing services).
+[Kaitain - QA App](https://github.com/lucasmauricio/kaitain) | PHP | Frontend Test App for services manipulation.
 
 All the project is glued with [Docker Compose](https://docs.docker.com/compose/).
 
